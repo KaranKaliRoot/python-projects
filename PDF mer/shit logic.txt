@@ -1,0 +1,2 @@
+=IF(OR(COUNTIF($A$1:A2,A3)>0, COUNTIF($A$1:A2,REVERSE(A3))>0), "Exists", "Does not exist")
+=IF(OR(COUNTIF($A$2:A3,A4)>0, COUNTIF($A$2:A3,REVERSE(A4))>0), "Exists", "Does not exist")
